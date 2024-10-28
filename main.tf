@@ -72,7 +72,7 @@ module "hah" {
     github = github.hah
   }
   source            = "brucellino/nomad-webhooks/github"
-  version           = "1.1.9"
+  version           = "1.1.10"
   github_username   = "hashi-at-home"
   org               = true
   include_archived  = false
@@ -84,7 +84,7 @@ module "mine" {
     github = github.mine
   }
   source            = "brucellino/nomad-webhooks/github"
-  version           = "1.1.9"
+  version           = "1.1.10"
   github_username   = "brucellino"
   org               = false
   include_archived  = false
